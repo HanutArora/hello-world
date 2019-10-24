@@ -1,0 +1,10 @@
+programme to print reverse of a number
+print("programme to print reverse of a number")
+num=int(input("Enter the number:"))
+num2=0
+r=0
+while(num>0):
+    r=num%10
+    num2=(num2*10)+r
+    num=int(num/10)
+print("Reversed number is",num2)    
